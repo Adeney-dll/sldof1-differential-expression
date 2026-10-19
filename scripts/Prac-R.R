@@ -1,3 +1,2 @@
-library(tidyverse)
-ggplot(mtcars, aes(wt, mpg, colour = factor(cyl))) + geom_point()
-ggsave("figures/test.png")
+my_data <- read.csv("data/KP-MHC-Prac.csv")
+str(my_data)
