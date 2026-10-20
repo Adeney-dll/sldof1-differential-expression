@@ -37,4 +37,5 @@ This project re-analyses the published RNA-seq experiment focused on tomato frui
     |[GSM3375629](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3375629)|SlDof-8_3|
     3 Wild types [WT] and 3 modified samples. Extraction of the files yielded 6 individual datasets, as analysis was targeted towards one file, all six had to be merged. The merged file "count matrix" was used for subsequent analysis.
 
-2. **Differential expression with DESeq2:** 
+2. **Differential expression with DESeq2:** Decimal values were rounded up and a reference table "coldata" for consolidated data was built further merging all 6 replicate samples to 2, (WT & RNAi).
+     
