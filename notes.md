@@ -35,4 +35,6 @@ This project re-analyses the published RNA-seq experiment focused on tomato frui
     |[GSM3375627](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3375627)|SlDof-8_1|
     |[GSM3375628](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3375628)|SlDof-8_2|
     |[GSM3375629](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3375629)|SlDof-8_3|
-    3 Wild types [WT] and 3 modified samples
+    3 Wild types [WT] and 3 modified samples. Extraction of the files yielded 6 individual datasets, as analysis was targeted towards one file, all six had to be merged. The merged file "count matrix" was used for subsequent analysis.
+
+2. **Differential expression with DESeq2:** 
