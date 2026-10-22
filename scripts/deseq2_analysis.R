@@ -42,3 +42,8 @@ vsd <- vst(dds, blind = TRUE)
 pca <- plotPCA(vsd, intgroup = "condition")
 pca
 ggsave("figures/pca.png", pca, width = 6, height = 5, dpi = 300)
+
+# Result image 2
+png("figures/ma_plot.png", width = 1800, height = 1500, res = 300)
+plotMA(res, ylim = c(-4, 4))
+dev.off()
