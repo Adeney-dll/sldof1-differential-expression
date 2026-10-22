@@ -30,7 +30,7 @@ BiocManager::install("DESeq2")
 
 - Execute `scripts/file-merge.R` (or your specific data prep script) to merge the raw individual sample files into a single `counts.txt` matrix.
     
-- Execute `scripts/01_deseq2_analysis.R` to run the statistical pipeline and generate the data visualizations (PCA, MA, Volcano, and Heatmap) as well as the CSV results table.
+- Execute `scripts/deseq2_analysis.R` to run the statistical pipeline and generate the data visualizations (PCA, MA, Volcano, and Heatmap) as well as the CSV results table.
     
 
 **3. Knit the report** Open `Report.Rmd` in RStudio and click the **Knit** button to compile the final HTML report containing the methodology, figures, and session information.
