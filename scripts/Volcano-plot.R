@@ -17,6 +17,11 @@ volcano <- ggplot(res_df, aes(log2FoldChange, -log10(padj), colour = status)) +
        y = "-log10 adjusted p-value", colour = NULL) +
   theme_bw()
 
+# sum(res$padj < 0.05, na.rm = TRUE)
+# [1] 1973
+# > sum(res$padj < 0.05 & abs(res$log2FoldChange) >= 1, na.rm = TRUE)
+# [1] 651
+
 volcano
 ggsave("figures/volcano.png", volcano, width = 7, height = 5, dpi = 300)
 
